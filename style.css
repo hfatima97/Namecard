@@ -18,10 +18,10 @@ body {
 
 
 img {
-  width: 350px;
+  width: 20%;
   height: auto;
   border-radius: 50% 20% / 10% 40%;
-  border: 20px solid rgba(196,191,182,.5);
+  border: 30px solid rgba(196,191,182,.5);
   transition: all 0.5s ease-in-out;
 }
  
@@ -34,28 +34,29 @@ img {
   
 .one {
     width: 15%;
-    height: 400px;
-    float: left;
-    margin-left: 10%;
+    height: auto;
+    text-align: left;
+    margin-left: 5%;
 }
   
 .two {
     text-align: right;
-    height: 460px;
+    height: 100%;
+    width: 85%;
 }
 
 #left_hello {
-    font-size: 150px;
+    font-size: 15vw;
     transform: rotate(345deg);
     font-family: 'Great Vibes', cursive;  
-    letter-spacing: 35px;
+    letter-spacing: 10px;
     color: rgba(139,69,19,0.6);
+    position: absolute;
 }
 
 #left_name {
-    font-size: 50px;
-    margin-top: -70%;
-    margin-left: 50%;
+    position: absolute;
+    font-size: 5vw;
     text-transform: uppercase;
     font-family: cursive;
     text-overflow: ellipsis; 
@@ -68,8 +69,7 @@ img {
 .world {
     font-size: 60px;
     text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 10% 5%;
     background-color: rgba(196,191,182,.3);
     color: rgba(148,106,59, 0.8);
     padding-left: 10px;
@@ -86,7 +86,7 @@ img {
 }
 
 .introduce {
-    margin-top: -20px;
+    margin-top: -1%;
     font-size: 20px;
     margin-left: 5%;
     font-family: serif;
@@ -94,7 +94,7 @@ img {
 }
 
 .school {
-    margin-top: -20px;
+    margin-top: -1%;
     font-size: 20px;
     margin-right: 5%;
     text-align: right;
